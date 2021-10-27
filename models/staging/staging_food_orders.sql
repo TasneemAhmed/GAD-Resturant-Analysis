@@ -7,5 +7,3 @@ select
 from 
   {{ source('Gad_food_resturant','raw_food_orders') }}
 
-
---`dataanalysis-1stmeeting.Gad_food_resturant.raw_food_orders`
