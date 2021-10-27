@@ -2,7 +2,10 @@ version: 2
 
 sources:
   - name: Gad_food_resturant
+    description: Add/loaded Gad_food_resturant into dbt from DWH(BigQuery)
     tables:
       - name: raw_food_orders
+        description: Add/loaded raw_food_orders into dbt from DWH(BigQuery)
       - name: raw_users
+        description: Add/loaded raw_users into dbt from DWH(BigQuery)
 
