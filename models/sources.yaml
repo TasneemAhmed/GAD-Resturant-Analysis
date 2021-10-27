@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: Gad_food_resturant
+    tables:
+      - name: raw_food_orders
+      - name: raw_users
+
