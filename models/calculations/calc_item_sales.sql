@@ -1,5 +1,5 @@
 SELECT name as item_name, 
-       sum(cast(price  as float64)) as sales
+       sum(price) as sales
 FROM 
   {{ref('staging_food_orders')}}
 group by 1
